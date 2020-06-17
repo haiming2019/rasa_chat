@@ -1,5 +1,24 @@
-rasa
+# 一个基于 Rasa 的天气查询机器人
+* 本项目是基于 Rasa 的天气查询机器人项目的后端部分
+* 另一个部分是前端部分位于./client
 
+
+## 环境要求 ##
+Mac OS X or Linux
+
+## 安装
+
+### 安装依赖 ###
+安装 python 等各种软件包依赖
+```bash
+make install
+```
+
+### 安装模型文件 ###
+下载已经预先训练好的 MITIE 的模型文件
+```bash
+make download
+```
 
 ## 可视化story
 ```bash
